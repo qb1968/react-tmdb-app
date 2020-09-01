@@ -11,7 +11,7 @@ function GridCards(props) {
         return (
             <Col key={key} lg={6} md={8} xs={24}>
                 <div style={{ position: 'relative' }}>
-                    <img style={{ width: '100%', height: '320px' }} alt={characterName} src={`${IMAGE_BASE_URL}${POSTER_SIZE}${image}`} />
+                    <img style={{ width: '80%', height: '250px' }} alt={characterName} src={`${IMAGE_BASE_URL}${POSTER_SIZE}${image}`} />
                 </div>
             </Col>
         )
